@@ -24732,6 +24732,15 @@ ion-navbar.toolbar {
   }
 }
 
+.profileimage {
+  height: 50%;
+  width: auto;
+}
+
+ion-title {
+  color: #BE29EC;
+}
+
 .tutorial-page .toolbar-background {
   background: #fff;
   border-color: transparent;

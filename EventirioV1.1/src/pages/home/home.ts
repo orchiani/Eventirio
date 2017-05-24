@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import {DescripcionPage} from '../descripcion/descripcion';
+import {SliderPage} from '../slider/slider';
 
 @Component({
   selector: 'page-home',
@@ -14,9 +14,9 @@ export class HomePage {
 
   ngOnInit () {}
 
-  irDescripcion(){
+  irSlider(){
 
-    this.navCtrl.push( DescripcionPage );
+    this.navCtrl.push( SliderPage );
   }
 
 }
