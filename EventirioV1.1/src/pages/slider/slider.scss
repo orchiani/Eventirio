@@ -1,12 +1,12 @@
 .tutorial-page {
 
   .toolbar-background {
-    background: #fff;
+    background: #080808;
     border-color: transparent;
   }
 
   .slide-zoom {
-    height: 100%;
+
   }
 
   .slide-title {
@@ -14,9 +14,8 @@
   }
 
   .slide-image {
-    max-height: 100%;
-    max-width:  400;
-    align-content: center;
+    max-height: auto;
+    max-width:  auto;
 
   }
 

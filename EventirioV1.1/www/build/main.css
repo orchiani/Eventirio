@@ -24742,12 +24742,8 @@ ion-title {
 }
 
 .tutorial-page .toolbar-background {
-  background: #fff;
+  background: #080808;
   border-color: transparent;
-}
-
-.tutorial-page .slide-zoom {
-  height: 100%;
 }
 
 .tutorial-page .slide-title {
@@ -24755,11 +24751,8 @@ ion-title {
 }
 
 .tutorial-page .slide-image {
-  max-height: 100%;
-  max-width: 400;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
+  max-height: auto;
+  max-width: auto;
 }
 
 .tutorial-page b {

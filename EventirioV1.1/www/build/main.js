@@ -55575,7 +55575,7 @@ var AboutPage = (function () {
 }());
 AboutPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
-        selector: 'page-about',template:/*ion-inline-start:"/home/sopl207/APP/Eventirio/EventirioV1.1/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar color="dark">\n    <ion-title text-center> Eventirio </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content position style="background-color: black">\n    <img class="profileimage" scr="https://d2ofpir5gh0cbr.cloudfront.net/files/2016-06/mais-vendidos-flyer-vitrine.jpg"/>\n</ion-content>\n'/*ion-inline-end:"/home/sopl207/APP/Eventirio/EventirioV1.1/src/pages/about/about.html"*/
+        selector: 'page-about',template:/*ion-inline-start:"/home/sopl207/APP/Eventirio/EventirioV1.1/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar color="dark">\n    <ion-title text-center> Eventirio </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-item color="dark">\n      <ion-thumbnail item-start>\n        <img src="http://www.infosis-arg.com/wp-content/uploads/2014/10/VictorAlbornoz-800.png">\n      </ion-thumbnail>\n      <h2>Victor Albornoz</h2>\n      <p>Mar del plata, Buenos Aires, Argentina</p>\n      <button ion-button clear item-end>Editar</button>\n    </ion-item>\n   </ion-list>\n  </ion-content>\n'/*ion-inline-end:"/home/sopl207/APP/Eventirio/EventirioV1.1/src/pages/about/about.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
 ], AboutPage);
@@ -55660,7 +55660,7 @@ var SliderPage = (function () {
 }());
 SliderPage = __decorate([
     __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({
-        selector: 'page-slider',template:/*ion-inline-start:"/home/sopl207/APP/Eventirio/EventirioV1.1/src/pages/slider/slider.html"*/'\n\n<ion-content class="tutorial-page">\n\n  <ion-slides pager>\n    <ion-slide *ngFor="let slide of slides">\n      <img [src]="slide.image" class="slide-image"/>\n      <h2 class="slide-title" [innerHTML]="slide.title"></h2>\n      <p [innerHTML]="slide.description"></p>\n    </ion-slide>\n    <ion-slide>\n      <ion-toolbar>\n      </ion-toolbar>\n      <img src="https://i.ytimg.com/vi/TzLnbt15uuU/maxresdefault.jpg" class="slide-image"/>\n      <h2 class="slide-title">Animate careta</h2>\n    </ion-slide>\n  </ion-slides>\n    <ion-footer>\n        <ion-fab left bottom>\n    <button ion-fab color="dark"><ion-icon name="share"></ion-icon></button>\n    <ion-fab-list side="top">\n      <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>\n      <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>\n      <button ion-fab><ion-icon name="logo-instagram"></ion-icon></button>\n    </ion-fab-list>\n  </ion-fab>\n    </ion-footer>\n</ion-content>\n'/*ion-inline-end:"/home/sopl207/APP/Eventirio/EventirioV1.1/src/pages/slider/slider.html"*/
+        selector: 'page-slider',template:/*ion-inline-start:"/home/sopl207/APP/Eventirio/EventirioV1.1/src/pages/slider/slider.html"*/'\n\n<ion-content class="tutorial-page" style="background-color: black; color: white">\n\n  <ion-slides pager>\n    <ion-slide *ngFor="let slide of slides" color="dark">\n      <img [src]="slide.image" class="slide-image"/>\n      <h2 class="slide-title" [innerHTML]="slide.title"></h2>\n      <p [innerHTML]="slide.description"></p>\n    </ion-slide>\n    <ion-slide>\n      <ion-toolbar>\n      </ion-toolbar>\n      <img src="https://i.ytimg.com/vi/TzLnbt15uuU/maxresdefault.jpg" class="slide-image"/>\n      <h2 class="slide-title">Animate careta</h2>\n    </ion-slide>\n  </ion-slides>\n    <ion-footer>\n        <ion-fab left bottom>\n    <button ion-fab color="dark"><ion-icon name="share"></ion-icon></button>\n    <ion-fab-list side="top">\n      <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>\n      <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>\n      <button ion-fab><ion-icon name="logo-instagram"></ion-icon></button>\n    </ion-fab-list>\n  </ion-fab>\n    </ion-footer>\n</ion-content>\n'/*ion-inline-end:"/home/sopl207/APP/Eventirio/EventirioV1.1/src/pages/slider/slider.html"*/
     })
 ], SliderPage);
 
@@ -74482,7 +74482,7 @@ var MyApp = (function () {
     return MyApp;
 }());
 MyApp = __decorate([
-    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({template:/*ion-inline-start:"/home/sopl207/APP/Eventirio/EventirioV1.1/src/app/app.html"*/'ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/sopl207/APP/Eventirio/EventirioV1.1/src/app/app.html"*/
+    __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_5" /* Component */])({template:/*ion-inline-start:"/home/sopl207/APP/Eventirio/EventirioV1.1/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/sopl207/APP/Eventirio/EventirioV1.1/src/app/app.html"*/
     }),
     __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
 ], MyApp);
